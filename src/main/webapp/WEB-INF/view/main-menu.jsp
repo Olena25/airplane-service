@@ -14,8 +14,6 @@
 <br><br>
 2) Find all airplanes
 <form action="/airplanes" method="GET">
-    <input type="text" name="airplanes"
-           placeholder=""/>
     <input type="submit" value="Find all airplanes">
 </form>
 
@@ -26,6 +24,8 @@
            placeholder="Type airplane name"/>
     <input type="submit" value="Find airplane">
 </form>
+
+
 
 
 </body>
