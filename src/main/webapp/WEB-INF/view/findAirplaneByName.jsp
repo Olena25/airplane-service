@@ -2,10 +2,11 @@
 <html>
 
 <body>
-<ul>
-    <c:forEach items="${airplanes}" var="airplane">
-        <li>${airplane}</li>
-    </c:forEach>
-</ul>
+Found airplane: ${airplane}
+<br><br>
+<form action="/" method="GET">
+
+    <input type="submit" value="Back">
+</form>
 </body>
 </html>
